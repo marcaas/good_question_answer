@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1681451570 "main.tex" "main.pdf" "main" 1681451572 0
+["pdflatex"] 1681785924 "main.tex" "main.pdf" "main" 1681785926 0
   "/home/marcass/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/home/marcass/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1136768653 1528 abec98dbc43e172678c11b3b9031252a ""
   "/home/marcass/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1136768653 1524 4414a8315f39513458b80dfc63bff03a ""
@@ -115,11 +115,12 @@
   "/home/marcass/texlive/2023/texmf-var/web2c/xetex/xelatex.fmt" 1681182125 10503730 c7145919e428a564c46d7f0e9ef28e07 ""
   "/home/marcass/texlive/2023/texmf.cnf" 1681180243 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
   "CAShomework.cls" 1681260150 10540 9d9f7a934b215f77bf05e26617dcdffa ""
-  "body/good_660.tex" 1681451567 3893 90a9ff1e5f23e80bdf1d4fd95e2d522a ""
+  "body/good_660.tex" 1681781525 4080 30792ba93eac52839b695d46a4c9ed75 ""
   "body/good_880.tex" 1681271037 1084 50ef5971046802ae717ead5de9fcb406 ""
   "body/good_ZY.tex" 1681286559 3493 e37a23c14df6aa282f7ef3bc4b16ae39 ""
-  "main.aux" 1681451572 4924 1205d5a684bac47422aee1b798163307 "pdflatex"
-  "main.tex" 1681344195 853 bb4804375ce668100d8fc666ff8380d7 ""
+  "body/good_yue.tex" 1681785910 3028 a7dbebb72328816afe1d55a956a72683 ""
+  "main.aux" 1681785926 8659 a230db8a6759e5091766f08867ac1a91 "pdflatex"
+  "main.tex" 1681781641 880 50dd60bd7db55a24b28d630d537b8694 ""
   (generated)
   "main.aux"
   "main.log"
