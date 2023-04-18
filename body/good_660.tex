@@ -3,16 +3,16 @@
 % 1.1
 \begin{question}
     \begin{equation*}
-        \lim\limits_{x \to \infty} x^2 (2^{\frac{1}{x}} - 2^{\frac{1}{x + 1}}) = 
+        \lim_{x \to \infty} x^2 (2^{\frac{1}{x}} - 2^{\frac{1}{x + 1}}) = 
     \end{equation*}
 \end{question}
 \begin{solution}
     令$ x = \frac 1 t , x \to \infty, t \to 0 $ , 记原式$ = I $ 
     \begin{align*}
-        I &= \lim\limits_{t \to 0} \frac{ 2^t - 2^{ \frac{t}{t + 1} } }{t^2} \\
-          &= \lim\limits_{t \to 0} 2^t \frac{ 1 - 2^{ \frac{t}{t + 1} - t } }{t^2}  \\
-          &= \lim\limits_{t \to 0} \frac{ 1 - 2^{ \frac{-t^2}{t + 1} } }{t^2}   \\
-          &= \lim\limits_{t \to 0} \frac{ \frac{t^2}{t + 1} \ln2 }{t^2} \\
+        I &= \lim_{t \to 0} \frac{ 2^t - 2^{ \frac{t}{t + 1} } }{t^2} \\
+          &= \lim_{t \to 0} 2^t \frac{ 1 - 2^{ \frac{t}{t + 1} - t } }{t^2}  \\
+          &= \lim_{t \to 0} \frac{ 1 - 2^{ \frac{-t^2}{t + 1} } }{t^2}   \\
+          &= \lim_{t \to 0} \frac{ \frac{t^2}{t + 1} \ln2 }{t^2} \\
           &= \ln2
     \end{align*}
 \end{solution}
@@ -22,16 +22,16 @@
 \end{question}
 % 1.3
 \begin{question}
-    $ f(x) = x^2 (x + 1)^2 (x + 2)^2 \cdots (x + n)^2 $ , 则$ f^{\prime \prime}(0) =  $ 
+    $ f(x) = x^2 (x + 1)^2 (x + 2)^2 \cdots (x + n)^2 $ , 则$ f''(0) =  $ 
 \end{question}
 \begin{solution}
     设$ g(x) =(x + 1)^2 (x + 2)^2 \cdots (x + n)^2 $ , 则$ f(x) = x^2 g(x) $ , 此时
     \begin{equation*}
-        f\prime\prime(x) = (x^2)\prime\prime g(x) + 2(x^2)\prime g\prime(x) + x^2 g\prime(x)
+        f'(x) = (x^2)' g(x) + 2(x^2)' g'(x) + x^2 g'(x)
     \end{equation*}
-    当$ x = 0 $ 时,  $ 2(x^2)\prime g\prime(x) + x^2 g\prime(x) = 0 $ , 所以 
+    当$ x = 0 $ 时,  $ 2(x^2)' g'(x) + x^2 g'(x) = 0 $ , 所以 
     \begin{equation*}
-        f\prime\prime(0) = (x^2)\prime\prime g(x) | _{x = 0} = 2g(0)
+        f'(0) = (x^2)' g(x) \big| _{x = 0} = 2g(0)
     \end{equation*}
     \begin{align*}
         g(0) &= 1^2 \cdot 2^2 \cdots n^2     \\
@@ -57,11 +57,11 @@
     \end{align*}
     关于曲率, 在直角坐标方程下有
     \begin{equation*}
-        K = \frac{\abs{y\prime\prime}}{(1 + y\prime^2)^{3 / 2}}
+        K = \frac{\abs{y'}}{(1 + y'^2)^{3 / 2}}
     \end{equation*}
     在参数方程下有
     \begin{equation*}
-        K = \frac{\abs{ \varphi\prime(t)\omega\prime\prime(t) - \omega\prime(t) \varphi\prime\prime(t)}}{\abs{ \varphi\prime^2(t) - \omega\prime^2(t) }^{3/2}}
+        K = \frac{\abs{ \varphi'(t)\omega'(t) - \omega'(t) \varphi'(t)}}{\abs{ \varphi'^2(t) - \omega'^2(t) }^{3/2}}
     \end{equation*}
     曲率半径
     \begin{equation*}
@@ -84,12 +84,12 @@
 \end{solution}
 % 1.6
 \begin{question}
-    设有界函数$ f(x) $ 在$ \ab(c, +\infty) $ 内可导, 且$ \lim\limits_{x \to +\infty} f\prime(x) = b $ , 则$ b = (\quad) $ 
+    设有界函数$ f(x) $ 在$ \ab(c, +\infty) $ 内可导, 且$ \lim\limits_{x \to +\infty} f'(x) = b $ , 则$ b = (\quad) $ 
 \end{question}
-\begin{solution}
+\begin{solution}{}
     [分析] 方法1
 
-    若知道以下事实：由$ \lim\limits_{x \to \infty} f\prime(x) = b > 0 ( < 0 )  $ 
+    若知道以下事实：由$ \lim\limits_{x \to \infty} f'(x) = b > 0 ( < 0 )  $ 
 \end{solution}
 % 1.7
 \begin{question}
